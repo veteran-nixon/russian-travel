@@ -2,9 +2,22 @@
     margin: 0 0 0 40px;
 }
 
+@media all and (max-width: 1200px) {
+    .place__paragraphs {
+        margin: 0 0 0 32px;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .place__paragraphs {
+        margin: 0 0 0 28px;
+    }
+}
+
+
 @media all and (max-width: 600px) {
     .place__paragraphs {
-        width: 288px;
+        max-width: 288px;
         margin: 32px auto 0;
     }
 }

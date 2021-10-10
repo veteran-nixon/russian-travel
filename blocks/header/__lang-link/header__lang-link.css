@@ -6,8 +6,8 @@
     line-height: 28px;
     letter-spacing: 0em;
     text-align: right;
-    width: 30px;
-    height: 28px;
+    min-width: 30px;
+    min-height: 28px;
     text-decoration: none;
     color: #fff;
     margin: 0 0 6px 18px;
@@ -17,8 +17,8 @@
     .header__lang-link {
         font-size: 18px;
         line-height: 20px;
-        width: 22px;
-        height: 20px;
+        min-width: 22px;
+        min-height: 20px;
         margin: 0 0 8px 18px;
     }
 }

@@ -1,49 +1,29 @@
 .cover {
     margin: 92px auto 0;
-    width: 1184px;
-    height: 740px;
+    max-width: 1184px;
+    min-height: 740px;
     position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 @media all and (max-width: 1200px) {
     .cover {
-        margin: 92px auto 0;
         width: 100%;
-        height: 640px;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        min-height: 640px;
     }
 }
 
 @media all and (max-width: 900px) {
     .cover {
-        margin: 92px auto 0;
+        margin: 90px auto 0;
         width: 100%;
-        height: 480px;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        min-height: 480px;
     }
 }
 
 @media all and (max-width: 600px) {
     .cover {
-        margin: 92px auto 0;
-        width: 100%;
-        height: 200px;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        margin: 66px auto 0;
+        width: 320px;
+        min-height: 200px;
     }
 }
