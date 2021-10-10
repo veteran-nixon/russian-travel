@@ -3,3 +3,12 @@
     padding: 0;
     align-self: flex-end;
 }
+
+@media all and (max-width: 600px) {
+    .place__website {
+        width: 288px;
+        margin: 32px auto 0;
+        padding: 0;
+        align-self: flex-start;
+    }
+}

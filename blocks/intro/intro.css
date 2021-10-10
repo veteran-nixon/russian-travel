@@ -1,5 +1,15 @@
 .intro {
-    width: 690px;
-    height: 429px;
-    margin: 92px 442px 0 auto;
+    margin: 92px auto 0;
+}
+
+@media all and (max-width: 900px) {
+    .intro {
+        margin: 88px auto 0;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .intro {
+        margin: 64px auto 0;
+    }
 }

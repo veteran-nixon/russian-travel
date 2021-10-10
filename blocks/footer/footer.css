@@ -3,3 +3,27 @@
     margin: 92px auto 0;
     padding-bottom: 24px;
 }
+
+@media all and (max-width: 1200px) {
+    .footer {
+        width: 928px;
+        margin: 92px auto 0;
+        padding-bottom: 24px;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .footer {
+        width: 720px;
+        margin: 88px auto 0;
+        padding-bottom: 24px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .footer {
+        width: 288px;
+        margin: 64px auto 0;
+        padding-bottom: 24px;
+    }
+}

@@ -5,3 +5,12 @@
 .footer__link-cell:nth-child(5) {
     margin-right: 0;
 }
+
+@media all and (max-width: 600px) {
+    .footer__link-cell {
+        margin: 0 0 32px 0;
+    }
+    .footer__link-cell:nth-child(5) {
+        margin-bottom: 0;
+    }
+}

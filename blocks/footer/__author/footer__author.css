@@ -8,5 +8,13 @@
     text-align: right;
     color: #fff;
     margin: 0;
+}
 
+@media all and (max-width: 600px) {
+    .footer__author {
+        font-size: 14px;
+        line-height: 14px;
+        margin: 48px 0 0 0;
+        text-align: left;
+    }
 }

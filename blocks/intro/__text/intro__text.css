@@ -1,6 +1,6 @@
 .intro__text {
+    width: 100%;
     margin: 40px 0 0 0;
-    height: 208px;
     color: #fff;
     font-family: Inter;
     font-size: 16px;
@@ -9,5 +9,4 @@
     line-height: 26px;
     letter-spacing: 0em;
     text-align: left;
-
 }

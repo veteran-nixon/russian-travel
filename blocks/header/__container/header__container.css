@@ -1,6 +1,6 @@
 .header__container {
-    width: 1184px;
-    margin: 0 48px 0;
+    max-width: 1184px;
+    margin: 0 auto;
     height: 52px;
     display: flex;
     position: relative;
@@ -8,3 +8,24 @@
     justify-content: flex-end;
     align-items: flex-end;
 }
+
+
+@media all and (max-width: 1200px) {
+    .header__container {
+        max-width: 928px;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .header__container {
+        max-width: 720px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .header__container {
+        max-width: 288px;
+        height: 42px;
+    }
+}
+

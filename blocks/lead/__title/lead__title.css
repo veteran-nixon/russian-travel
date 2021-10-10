@@ -1,6 +1,5 @@
 .lead__title {
     width: 720px;
-    height: 200px;
     margin: 56px auto 0;
     color: #fff;
     font-family: Inter;
@@ -10,4 +9,25 @@
     line-height: 100px;
     letter-spacing: 0em;
     text-align: center;
+}
+
+@media all and (max-width: 1200px) { 
+    .lead__title{
+        margin: 48px 0 0 0;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .lead__title {
+        margin: 48px 0 0 0;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .lead__title {
+        margin: 48px 0 0 0;
+        width: 288px;
+        font-size: 40px;
+        line-height: 44px;
+    }
 }
