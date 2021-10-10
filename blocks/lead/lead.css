@@ -1,5 +1,5 @@
 .lead {
-    width: 984px;
+    max-width: 984px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -8,18 +8,18 @@
 
 @media all and (max-width: 1200px) {
     .lead {
-        width: 928px;
+        max-width: 928px;
     }
 }
 
 @media all and (max-width: 900px) {
     .lead {
-        width: 768px;
+        max-width: 768px;
     }
 }
 
 @media all and (max-width: 600px) {
     .lead {
-        width: 320px;
+        max-width: 320px;
     }
 }

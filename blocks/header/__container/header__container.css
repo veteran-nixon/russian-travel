@@ -1,7 +1,7 @@
 .header__container {
     max-width: 1184px;
     margin: 0 auto;
-    height: 52px;
+    min-height: 52px;
     display: flex;
     position: relative;
     flex-direction: row;
@@ -25,7 +25,7 @@
 @media all and (max-width: 600px) {
     .header__container {
         max-width: 288px;
-        height: 42px;
+        min-height: 42px;
     }
 }
 

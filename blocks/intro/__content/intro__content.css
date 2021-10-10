@@ -1,5 +1,5 @@
 .intro__content {
-    width: 690px;
+    max-width: 690px;
     margin: 0 auto 0 148px;
 }
 
@@ -18,7 +18,7 @@
 
 @media all and (max-width: 600px) {
     .intro__content {
-        width: 288px;   
+        max-width: 288px;   
         margin: 0 auto;
     }
 }
