@@ -6,6 +6,12 @@
 2. Использованы Flex и Grid Layout системы для построении секти.
 3. Проект адаптирован под разные расширения экра.
 4. Ссылкам задано состояние при наведении на них указателя мыши.
+<<<<<<< HEAD
 5. При верстке использован макет из Фигмы: [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
 
 ### _автор Долганёв Евгений, 2021_
+=======
+5. При верстке использован макет из [Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+
+### _автор Долганёв Евгений, 2021_
+>>>>>>> 4be31cab8fd1f243ceb5228bfc76daae6fc68524
