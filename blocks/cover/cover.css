@@ -23,7 +23,7 @@
 @media all and (max-width: 600px) {
     .cover {
         margin: 66px auto 0;
-        width: 320px;
+        max-width: 320px;
         min-height: 200px;
     }
 }

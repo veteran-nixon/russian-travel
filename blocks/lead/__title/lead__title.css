@@ -2,7 +2,7 @@
     max-width: 720px;
     margin: 56px auto 0;
     color: #fff;
-    font-family: Inter;
+    font-family: Inter, 'Helvetica Neue', Arial, sans-serif;
     font-size: 96px;
     font-style: normal;
     font-weight: 900;
@@ -20,6 +20,13 @@
 @media all and (max-width: 900px) {
     .lead__title {
         margin: 48px 0 0 0;
+    }
+}
+
+@media all and (max-width: 650px) {
+    .lead__title {
+        font-size: 76px;
+        line-height: 80px;
     }
 }
 
