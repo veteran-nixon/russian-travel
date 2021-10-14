@@ -23,6 +23,7 @@
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
+@import url(../blocks/lead/__figure/lead__figure.css);
 
 /* intro styles */
 @import url(../blocks/intro/intro.css);
@@ -62,7 +63,7 @@
 /* footer styles */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
-@import url(../blocks/footer/footer__column-nav/footer__column-nav.css);
+@import url(../blocks/footer/__column-nav/footer__column-nav.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link-cell/footer__link-cell.css);
 @import url(../blocks/footer/__link/footer__link.css);

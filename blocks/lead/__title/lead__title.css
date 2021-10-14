@@ -7,7 +7,6 @@
     font-style: normal;
     font-weight: 900;
     line-height: 100px;
-    letter-spacing: 0em;
     text-align: center;
 }
 
@@ -17,22 +16,15 @@
     }
 }
 
-@media all and (max-width: 900px) {
-    .lead__title {
-        margin: 48px 0 0 0;
-    }
-}
-
-@media all and (max-width: 650px) {
+/* @media all and (max-width: 650px) {
     .lead__title {
         font-size: 76px;
         line-height: 80px;
     }
-}
+} */
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 730px) {
     .lead__title {
-        margin: 48px 0 0 0;
         max-width: 288px;
         font-size: 40px;
         line-height: 44px;

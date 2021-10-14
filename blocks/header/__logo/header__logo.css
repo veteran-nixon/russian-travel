@@ -1,9 +1,10 @@
 .header__logo {
-    max-width: 176px;
-    min-height: 52px;
+    width: 176px;
+    height: 52px;
+    margin: 0;
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 730px) {
     .header__logo {
         max-width: 142px;
         min-height: 42px;

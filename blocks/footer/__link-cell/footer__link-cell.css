@@ -6,7 +6,7 @@
     margin-right: 0;
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 730px) {
     .footer__link-cell {
         margin: 0 0 32px 0;
     }

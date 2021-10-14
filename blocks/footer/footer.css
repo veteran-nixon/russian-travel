@@ -2,28 +2,28 @@
     max-width: 1184px;
     margin: 92px auto 0;
     padding-bottom: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 @media all and (max-width: 1200px) {
     .footer {
         max-width: 928px;
-        margin: 92px auto 0;
-        padding-bottom: 24px;
     }
 }
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 1000px) {
     .footer {
         max-width: 720px;
         margin: 88px auto 0;
-        padding-bottom: 24px;
     }
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 730px) {
     .footer {
         max-width: 288px;
         margin: 64px auto 0;
-        padding-bottom: 24px;
+        flex-direction: column;
     }
 }

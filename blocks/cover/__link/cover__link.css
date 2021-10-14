@@ -9,6 +9,7 @@
     min-height: 740px;
     background-image: url(../../../images/cover__images/__background.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 .cover__link::before {
@@ -19,7 +20,7 @@
     top: 0;
     content: "";
     opacity: .3;
-    background-color: rgba(42, 44, 47);
+    background-color: #2A2C2F;
     transition: opacity .5s ease-in;
 }
 
@@ -33,13 +34,13 @@
     }
 }
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 1000px) {
     .cover__link {
         min-height: 480px;
     }
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 730px) {
     .cover__link {
         min-height: 200px;
     }

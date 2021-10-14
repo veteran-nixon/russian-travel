@@ -1,29 +1,24 @@
 .cover {
     margin: 92px auto 0;
     max-width: 1184px;
-    min-height: 740px;
     position: relative;
 }
 
 @media all and (max-width: 1200px) {
     .cover {
-        width: 100%;
-        min-height: 640px;
+        max-width: 100%;
     }
 }
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 1000px) {
     .cover {
         margin: 90px auto 0;
-        width: 100%;
-        min-height: 480px;
     }
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 730px) {
     .cover {
         margin: 66px auto 0;
         max-width: 320px;
-        min-height: 200px;
     }
 }
