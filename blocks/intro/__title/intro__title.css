@@ -10,9 +10,9 @@
     text-align: left;
 }
 
-@media all and (max-width: 730px) {
+@media all and (max-width: 740px) {
     .intro__title {
-        font-size: 37px;
+        font-size: 32px;
         line-height: 35px;
         font-weight: 900;
     }

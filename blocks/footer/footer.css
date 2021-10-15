@@ -7,7 +7,7 @@
     justify-content: space-between;
 }
 
-@media all and (max-width: 1200px) {
+@media all and (max-width: 1250px) {
     .footer {
         max-width: 928px;
     }
@@ -20,7 +20,7 @@
     }
 }
 
-@media all and (max-width: 730px) {
+@media all and (max-width: 740px) {
     .footer {
         max-width: 288px;
         margin: 64px auto 0;

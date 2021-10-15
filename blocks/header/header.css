@@ -2,13 +2,12 @@
     max-width: 1184px;
     margin: 0 auto;
     padding-top: 28px;
-    min-height: 52px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-@media all and (max-width: 1200px) {
+@media all and (max-width: 1250px) {
     .header {
         max-width: 928px;
     }
@@ -20,10 +19,9 @@
     }
 }
 
-@media all and (max-width: 730px) {
+@media all and (max-width: 740px) {
     .header {
         max-width: 288px;
-        min-height: 42px;
         padding-top: 16px;
     }
 }

@@ -10,20 +10,13 @@
     text-align: center;
 }
 
-@media all and (max-width: 1200px) { 
+@media all and (max-width: 1250px) { 
     .lead__title{
         margin: 48px 0 0 0;
     }
 }
 
-/* @media all and (max-width: 650px) {
-    .lead__title {
-        font-size: 76px;
-        line-height: 80px;
-    }
-} */
-
-@media all and (max-width: 730px) {
+@media all and (max-width: 740px) {
     .lead__title {
         max-width: 288px;
         font-size: 40px;

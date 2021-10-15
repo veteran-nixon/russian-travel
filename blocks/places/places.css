@@ -3,7 +3,7 @@
     margin: 92px auto 0;
 }
 
-@media all and (max-width: 1200px) {
+@media all and (max-width: 1250px) {
     .places {
         max-width: 928px;
     }
@@ -16,7 +16,7 @@
     }
 }
 
-@media all and (max-width: 730px) {
+@media all and (max-width: 740px) {
     .places {
         max-width: 320px;
         margin: 64px auto 0;

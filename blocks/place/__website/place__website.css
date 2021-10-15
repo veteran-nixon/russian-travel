@@ -1,9 +1,12 @@
 .place__website {
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
-@media all and (max-width: 730px) {
+@media all and (max-width: 740px) {
     .place__website {
         width: 288px;
         margin: 0 auto;

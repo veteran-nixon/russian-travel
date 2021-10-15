@@ -10,7 +10,7 @@
     color: #fff;
 }
 
-@media all and (max-width: 730px) {
+@media all and (max-width: 740px) {
     .lead__subtitle {
         max-width: 288px;
         margin: 16px auto 0;

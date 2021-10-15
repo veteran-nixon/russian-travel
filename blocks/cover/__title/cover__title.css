@@ -11,7 +11,7 @@
     z-index: 2;
 }
 
-@media all and (max-width: 730px) {
+@media all and (max-width: 740px) {
     .cover__title {
         font-size: 32px;
         line-height: 35px;

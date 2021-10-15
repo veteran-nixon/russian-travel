@@ -16,7 +16,7 @@
     }
 }
 
-@media all and (max-width: 730px) {
+@media all and (max-width: 740px) {
     .place__title {
         margin: 0 auto;
         width: 288px;

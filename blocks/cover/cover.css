@@ -4,9 +4,9 @@
     position: relative;
 }
 
-@media all and (max-width: 1200px) {
+@media all and (max-width: 1250px) {
     .cover {
-        max-width: 100%;
+        width: 100%;
     }
 }
 
@@ -16,7 +16,7 @@
     }
 }
 
-@media all and (max-width: 730px) {
+@media all and (max-width: 740px) {
     .cover {
         margin: 66px auto 0;
         max-width: 320px;
